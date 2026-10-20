@@ -5,3 +5,4 @@ if (edad >= 18) {
     console.log("Eres menor de edad");
 }
 // El error era que el signo de mayor/igual estaba mal escrito: "=>" en lugar de ">=", lo que generaba un error de sintaxis.
+//Error sintáctico.
