@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<body>
+  <button id="miBoton">Click me</button>
+ 
+  <script>
+    const btn = document.getElementById("miBoton");
+    btn.addEventListener("click", function() {
+      let msg = "Hola mundo";
+      console.log(msg);
+    });
+ </script>
+</body>
+</html>
+
+//El error es que en console.log(msj), msj debe estar escrito como msg que es como se declaró la variable.
+//Para solucionarlo, cambié msj por msg.
+//El otro error es que es un html.
